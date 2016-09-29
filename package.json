@@ -1,0 +1,33 @@
+{
+  "name": "kicker-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonVanEndern/kicker-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonVanEndern/kicker-app/issues"
+  },
+  "homepage": "https://github.com/SimonVanEndern/kicker-app#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.1",
+    "gulp-util": "^3.0.7",
+    "tsify": "^1.0.7",
+    "typescript": "^2.0.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.4.8"
+  }
+}
